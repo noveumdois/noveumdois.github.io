@@ -1,0 +1,48 @@
+html::after {
+  content: "";
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: absolute;
+  opacity: 0.35;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+html.68zlatavyio::after { background-image: url(/assets/images/68zlatavyio-markus-spiske.jpg) }
+html.fexpdv001o4::after { background-image: url(/assets/images/fexpdv001o4-anas-alshanti.jpg) }
+html.hmhkyn8::after { background-image: url(/assets/images/hmhkyn8-iia-tran-mau-tri-tam.jpg) }
+html.p-xsl33wxyc::after { background-image: url(/assets/images/p-xsl33wxyc-farzad-nazifi.jpg) }
+html.sm3ub_ijkqg::after { background-image: url(/assets/images/sm3ub_ijkqg-jordan-whitfield.jpg) }
+html.w-oqnwbmin0::after { background-image: url(/assets/images/w-oqnwbmin0-oscar-nilsson.jpg) }
+html.wbxdgs_d17u::after { background-image: url(/assets/images/wbxdgs_d17u-ilya-pavlov.jpg) }
+
+html, body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  font-family: 'Varela Round', sans-serif;
+  position: relative;
+}
+
+.hero {
+  font-size: 2em;
+}
+
+.hero h1  {
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  font-size: 3em;
+  margin: 0;
+}
+
+
+.hero small {
+  font-family: 'Varela Round', sans-serif;
+  display: block;
+}
